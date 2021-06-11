@@ -1,10 +1,10 @@
 import React from 'react';
 import "./NavMenu.css"
 
-const NavMenu = ({setActive}) => {
+const NavMenu = ({setMenuActive, setActive}) => {
     return (
         <div className={"nav-menu"}>
-            <h1>Burger Menu</h1>
+            <h1 onClick={() => setMenuActive(true)}>Burger Menu</h1>
             <h1 onClick={() => setActive(true)}>Modal Window</h1>
         </div>
     );
