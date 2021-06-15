@@ -1,12 +1,16 @@
-.nav-menu {
-    height: 200px;
-    color: white;
+.menu {
     background: linear-gradient(to top, #6da87f, #6d7c7f);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    border-bottom: 10px white solid;
 }
-.nav-menu h1 {
-    margin: 0 150px;
+.nav-menu {
+    height: 110px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.nav-menu h3 {
+    margin: 0 70px;
     cursor: pointer;
 }
