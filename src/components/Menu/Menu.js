@@ -6,7 +6,7 @@ const Menu = () => {
     const [burgerActive, setBurgerActive] = useState(false)
     return (
         <div className={"menu-wrap"}>
-            <div className={"menu-burger"} onClick={() => setBurgerActive(!burgerActive)}>
+            <div className={burgerActive ? "menu-burger burger-active" : "menu-burger"} onClick={() => setBurgerActive(!burgerActive)}>
                 <span>{/*burger menu for media*/}</span>
             </div>
             <div className={burgerActive ? "menu-nav burger-active" : "menu-nav"}>
