@@ -15,7 +15,7 @@ const Menu = () => {
                 <h3>Contacts</h3>
             </div>
             <div className={"menu-logo"}>
-                <h1>LLOGO</h1>
+                <h1>Modal Window</h1>
             </div>
         </div>
     );
